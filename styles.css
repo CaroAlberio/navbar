@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto" , sans-serif;
+}
+
+.logo {
+  height: 180%;
+}
+
+.header {
+    background: whitesmoke;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.nav-link {
+    color: black;
+
+}
+
+.nav-link:hover {
+    color: gray
+}
